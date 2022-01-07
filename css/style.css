@@ -127,6 +127,11 @@ h2 {
 	line-height: 48px;
 	margin-bottom: 0px;
 }
+.like_h2{
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 0px;
+}
 h3{
 	font-size: 30px;
 	line-height: 1.4;
@@ -1220,6 +1225,9 @@ header.header-type-three .header_top_area .contact_wrapper_top .header_top_conta
 	margin-bottom: 30px;
 }
 .about-content h2 {
+	margin-bottom: 30px;
+}
+.about-content h1 {
 	margin-bottom: 30px;
 }
 .about-content .read-btn {

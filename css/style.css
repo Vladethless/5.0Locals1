@@ -150,6 +150,7 @@ h4 {
 	font-size: 18px;
 	line-height: 1.4;
 	margin-bottom: 0px;
+	color: #fff;
 }
 h5 {
 	font-size: 16px;
@@ -198,6 +199,7 @@ select {
 	line-height: 28px;
 	max-width: 750px;
 	margin: 0 auto;
+	color: #000;
 }
 /*-------------- title-spacing -------------*/
 
@@ -532,7 +534,6 @@ right: 20px;
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.7);
 }
 /* pulse in CSS */
 
@@ -1136,7 +1137,7 @@ header.header-type-three .header_top_area .contact_wrapper_top .header_top_conta
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-slide-three .hero-slider__content .hero-slider__btn {
 	color: #fff;
@@ -1609,10 +1610,17 @@ ul.about-listing {
 	color: #fff;
 	font-size: 55px;
 	margin-bottom: 20px;
+	line-height: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 .counter-box .count-title {
 	color: #fff;
 	font-size: 30px;
+	margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+	font-family: 'Roboto', sans-serif;
 }
 /* ----------------------------------------------------------------
      [ 10  Testimonial-slider ]
@@ -1873,9 +1881,11 @@ ul.about-listing {
 /*-------------- Banner-css ------------------*/
 
 .bg-banner {
-	background: url('../images/banner.jpg');
+	background: url('../images/all_pages.jpg');
 	width: 100%;
 	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 .bg-banner::before {
 	content: "";
@@ -1884,7 +1894,7 @@ ul.about-listing {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(0, 0, 0, 0.5);
 }
 .banner-box h1{
 	color: #fff;

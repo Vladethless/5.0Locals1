@@ -123,7 +123,7 @@ h1 {
 	margin-bottom: 0px;
 }
 h2 {
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 48px;
 	margin-bottom: 0px;
 }
@@ -1879,7 +1879,17 @@ ul.about-listing {
 -----------------------------------------------------------------*/
 
 /*-------------- Banner-css ------------------*/
+.service_item li{
+	font-size: 20px;
+	font-weight: 700;
+	color: #212121;
+	font-family: 'Poppins', sans-serif;
 
+}
+.service_item li>i {
+    color: #21ab64;
+    padding-right: 6px;
+}
 .bg-banner {
 	background: url('../images/all_pages.jpg');
 	width: 100%;

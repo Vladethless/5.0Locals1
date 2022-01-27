@@ -1579,7 +1579,7 @@ ul.about-listing {
 -----------------------------------------------------------------*/
 
 .bg-img-counter {
-	background-image: url(../images/bg-c.jpg);
+	background-image: url(../images/index_home.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -3116,7 +3116,7 @@ main.hero-slide.slide-type-four .slick-next:before {
     margin-bottom: 5px;
 }
 .hotel-cn-bg.bg-img-counter {
-	background-image: url(../images/cn-bg.jpg);
+	background-image: url(../images/index_home.jpg);
 }
 .hcn-box{
 	border: none;
